@@ -1,6 +1,6 @@
 ﻿namespace project_deliverable_4
 {
-    partial class Form1
+    partial class HomePageForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             Label label1;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePageForm));
             groupBox1 = new GroupBox();
             button7 = new Button();
             button6 = new Button();

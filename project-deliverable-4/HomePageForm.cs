@@ -1,8 +1,8 @@
 namespace project_deliverable_4
 {
-    public partial class Form1 : Form
+    public partial class HomePageForm : Form
     {
-        public Form1()
+        public HomePageForm()
         {
             InitializeComponent();
             SetupButtons();
@@ -48,8 +48,15 @@ namespace project_deliverable_4
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CalendarForm calendar = new CalendarForm();
+            CalendarForm calendar = new();
             calendar.Show();
+        }
+
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MailForm mail = new();
+            mail.Show();
         }
     }
 }
