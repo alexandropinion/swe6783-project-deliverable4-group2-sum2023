@@ -11,7 +11,8 @@ namespace project_deliverable_4
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new HomePageForm());
+            Database db = new Database();
+            Application.Run(new Login());
         }
     }
 }

@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "IeJxrCeDOP2qM+H7WX+jG/UObyJKpeWALDl6ZiVki9WlS5SlcAHHavDbQpuJohPd6Jhk6jZnP7yrDFIRZcGNpQ==",
+  "dgSpecHash": "3W1e80k7rFY/QXAaCbah0smt6Iz+bgeKigFzlQ9OJRPGbNRbfgah3HN2syhLOXwXEUuBSpdzsLr4OSvxBJcVDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\snipe\\OneDrive\\Documents\\GitHub\\swe6783-project-deliverable4-group2-sum2023\\project-deliverable-4\\project-deliverable-4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snipe\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\snipe\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\snipe\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\snipe\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\microsoft.data.sqlite\\7.0.9\\microsoft.data.sqlite.7.0.9.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.9\\microsoft.data.sqlite.core.7.0.9.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\snipe\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": [
     {

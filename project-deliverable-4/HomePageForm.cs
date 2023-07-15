@@ -64,5 +64,16 @@ namespace project_deliverable_4
             Live live = new();
             live.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Would you like to logout of your virtual classroom?", "Confirmation", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Hide();
+                Login login = new Login();
+                login.Show();
+            }
+        }
     }
 }
