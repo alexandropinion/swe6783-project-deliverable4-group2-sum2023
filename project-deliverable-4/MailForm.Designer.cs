@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MailForm));
             statusStrip1 = new StatusStrip();
             splitContainer1 = new SplitContainer();
+            button4 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.SuspendLayout();
@@ -65,6 +65,17 @@
             splitContainer1.SplitterDistance = 190;
             splitContainer1.TabIndex = 1;
             // 
+            // button4
+            // 
+            button4.BackColor = Color.IndianRed;
+            button4.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Location = new Point(12, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(175, 44);
+            button4.TabIndex = 1;
+            button4.Text = "Compose";
+            button4.UseVisualStyleBackColor = false;
+            // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Controls.Add(button1);
@@ -74,7 +85,6 @@
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(103, 295);
             flowLayoutPanel1.TabIndex = 0;
-            flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
             // button1
             // 
@@ -102,17 +112,6 @@
             button3.TabIndex = 2;
             button3.Text = "Draft";
             button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.IndianRed;
-            button4.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(12, 12);
-            button4.Name = "button4";
-            button4.Size = new Size(175, 44);
-            button4.TabIndex = 1;
-            button4.Text = "Compose";
-            button4.UseVisualStyleBackColor = false;
             // 
             // MailForm
             // 

@@ -105,6 +105,7 @@
             button5.TabIndex = 4;
             button5.Text = "Live";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -123,6 +124,7 @@
             button3.TabIndex = 2;
             button3.Text = "Mail";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -236,7 +238,7 @@
             button8.Text = "ECON 101";
             button8.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // HomePageForm
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -246,7 +248,7 @@
             Controls.Add(groupBox1);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "HomePageForm";
             Text = "Virtual Classroom - Home Page";
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);

@@ -18,3 +18,8 @@ C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project_deliverable_4.CalendarForm.resources
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project_deliverable_4.HomePageForm.resources
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project_deliverable_4.MailForm.resources
+C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project_deliverable_4.Live.resources
+C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project-deliverable-4.csproj.CopyComplete

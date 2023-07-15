@@ -53,10 +53,16 @@ namespace project_deliverable_4
         }
 
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             MailForm mail = new();
             mail.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Live live = new();
+            live.Show();
         }
     }
 }
