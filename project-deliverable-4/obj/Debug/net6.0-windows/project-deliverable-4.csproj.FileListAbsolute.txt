@@ -52,3 +52,6 @@ C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\snipe\OneDrive\Documents\GitHub\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project_deliverable_4.CreateAccount.resources
+C:\Users\jrmar\Source\Repos\alexandropinion\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project-deliverable-4.dll
+C:\Users\jrmar\Source\Repos\alexandropinion\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\refint\project-deliverable-4.dll
+C:\Users\jrmar\Source\Repos\alexandropinion\swe6783-project-deliverable4-group2-sum2023\project-deliverable-4\obj\Debug\net6.0-windows\project-deliverable-4.pdb
