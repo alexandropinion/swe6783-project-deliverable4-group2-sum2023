@@ -75,5 +75,51 @@ namespace project_deliverable_4
                 login.Show();
             }
         }
+
+        private void HomePageForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HomePageForm_Closed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button8_Click(object sender, EventArgs e) // Econ button
+        {
+            Live live = new();
+            live.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e) // History button
+        {
+            Live live = new();
+            live.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Live live = new();
+            live.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Live live = new();
+            live.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Live live = new();
+            live.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Live live = new();
+            live.Show();
+        }
     }
 }

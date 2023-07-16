@@ -46,9 +46,11 @@
             button10 = new Button();
             button9 = new Button();
             button8 = new Button();
+            pictureBox1 = new PictureBox();
             label1 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -183,6 +185,7 @@
             button13.TabIndex = 5;
             button13.Text = "EM 578";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button12
             // 
@@ -194,6 +197,7 @@
             button12.TabIndex = 4;
             button12.Text = "MATH 360";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button11
             // 
@@ -205,6 +209,7 @@
             button11.TabIndex = 3;
             button11.Text = "CHEM 390";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button10
             // 
@@ -216,6 +221,7 @@
             button10.TabIndex = 2;
             button10.Text = "PHYSICS 311";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button9
             // 
@@ -227,6 +233,7 @@
             button9.TabIndex = 1;
             button9.Text = "HISTORY 203";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button8
             // 
@@ -238,22 +245,36 @@
             button8.TabIndex = 0;
             button8.Text = "ECON 101";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.login_page1;
+            pictureBox1.Location = new Point(2, 1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1160, 725);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // HomePageForm
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveBorder;
-            ClientSize = new Size(1093, 676);
+            ClientSize = new Size(1163, 724);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Controls.Add(pictureBox1);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "HomePageForm";
             Text = "Virtual Classroom - Home Page";
+            FormClosed += HomePageForm_Closed;
+            Load += HomePageForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -275,5 +296,6 @@
         private Button button9;
         private Button button8;
         private Button button14;
+        private PictureBox pictureBox1;
     }
 }

@@ -106,5 +106,10 @@ namespace project_deliverable_4
             button1.Enabled = true;
 
         }
+
+        private void Live_Closed(object sender, FormClosedEventArgs e)
+        {
+            //this.Close();
+        }
     }
 }
